@@ -1,0 +1,24 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: auto auto; */
+    width: 600px;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.grid-item {
+    aspect-ratio: 1;
+}
+
+/* .hover {
+    background-color: red;
+} */
